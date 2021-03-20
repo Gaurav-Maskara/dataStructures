@@ -42,8 +42,7 @@ public class Fibonacci {
   }
 
   public static void main(String[] args) {
-    num
-        = 0;
+    num = 0;
     System.out.println(fibonacciIteratively(10));
     System.out.println(fibonacciRecursivelyEfficient(50, 1 , 0));
     System.out.println(fibonacciRecursively(50));

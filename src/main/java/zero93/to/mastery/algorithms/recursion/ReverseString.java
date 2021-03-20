@@ -20,7 +20,7 @@ public class ReverseString {
   }
 
   public static void main(String[] args) {
-    System.out.println(reverseStringRecursively("123456"));
+    System.out.println(reverseStringRecursively("123456789"));
     System.out.println(reverseStringIteratively("123456"));
   }
 }

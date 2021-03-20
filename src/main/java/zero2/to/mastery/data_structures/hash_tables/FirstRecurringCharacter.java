@@ -40,6 +40,9 @@ public class FirstRecurringCharacter {
 
   public static void main(String[] args) {
     Object[] arr = {1,5,8,5,1,8,8,7,4,4,10};
+    
+    int i = (int) Math.sqrt(8);
+    
     System.out.println(getFirstRecurringObjectBetter(arr));
     System.out.println(getFirstRecurringObjectBetter2(arr));
     System.out.println(getFirstRecurringObject(arr));
